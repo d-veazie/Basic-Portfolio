@@ -1,43 +1,71 @@
 .body {
     margin-left: auto; 
     margin-right: auto;
-    width: 100%;
+    width: 94%;
     height: auto; 
     position: relative;  
-    background-image: url("Assets/Images/dark-honeycomb"); 
+    background-image: url("../Assets/Images/dark-honeycomb.png"); 
 }
 
-}
+
 .header {
-    position: top; 
+    padding: 61px;
+    text-align: center;
+    background: #ffffff;
+    color: white;
+    font-size: 30px;
+  }
+  
+ 
+ 
+.navigation {
+    float: right;
+    width: 50;
+    display: inline; 
+    color: #b5a8a1; 
+    
 }
-.maincontent {
-    background-color: #ffffff; 
-    width: 960px; 
-    border-style: solid; 
-    border: 10px;
-    border-color: #dddddd; 
-} 
 
 .name {
     color: antiquewhite;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left; 
-     
     margin: auto;
-    padding: 10px; 
+    padding: 13px; 
+    position: static;
+    
 
 }
 
+a {
+    color: darkgrey; 
+    text-decoration: none; 
+    font-size: 20px;
+
+}
+
+.maincontent {
+    background-color: #ffffff; 
+    width: 960px; 
+    border-style: solid; 
+    border: 10px;
+    border-color: #dddddd; 
+    height: 385px;
+    padding: 2px;
+}
+
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif
+   
 }
 
 .AboutMe {
     clear: both;
     overflow: auto;
     position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    color: #4aaaa5;
 }
 
 
@@ -56,26 +84,39 @@ h1 {
     
 }
 
-.navigation {
-    float: right;
-    width: 50;
-    display: inline; 
-    
+hr {
+    width: 85%;
+    height: 1px;
+    color: #4aaaa5;
 }
 
-a {
-    color: #4aaaa5; 
-    text-decoration: none; 
- <
-
-}
 
 #img {
     width: 200px;
     height: 250px;
     float: left; 
+    border-radius: 75%;
+    border-style: groove;
+    border-color: #4aaaa5;
 }
 
-.portfolio {
-  
+.form {
+    padding: 35px;
 }
+
+input {
+    width: 99%;
+}
+
+input[name="submit"] {
+    width: 60px;
+}
+
+textarea[name="message"] {
+    height: 45px;
+    width: 99%; 
+}
+
+
+
+
